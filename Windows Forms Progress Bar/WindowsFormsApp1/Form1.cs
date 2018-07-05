@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Diagnostics;
 using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WindowsFormsApp1
@@ -17,6 +11,15 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
+            CenterWindow();
+        }
+
+        private void CenterWindow()
+        {
+            this.StartPosition = FormStartPosition.Manual;
+            Size bound = Screen.PrimaryScreen.Bounds.Size;
+            this.Left = (bound.Width - this.Width) / 2;
+            this.Top = (bound.Height - this.Height) / 2;
         }
 
         private void btnMarquee_Click(object sender, EventArgs e)

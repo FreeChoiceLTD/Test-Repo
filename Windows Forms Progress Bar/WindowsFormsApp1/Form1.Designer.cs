@@ -32,6 +32,7 @@
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.btnMarquee = new System.Windows.Forms.Button();
             this.tbValueProgress = new System.Windows.Forms.TextBox();
+            this.tbDisplaySize = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnContinous
@@ -46,7 +47,7 @@
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(12, 100);
+            this.progressBar1.Location = new System.Drawing.Point(12, 139);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(260, 31);
             this.progressBar1.TabIndex = 1;
@@ -64,16 +65,24 @@
             // 
             // tbValueProgress
             // 
-            this.tbValueProgress.Location = new System.Drawing.Point(12, 37);
+            this.tbValueProgress.Location = new System.Drawing.Point(12, 113);
             this.tbValueProgress.Name = "tbValueProgress";
             this.tbValueProgress.Size = new System.Drawing.Size(260, 20);
             this.tbValueProgress.TabIndex = 3;
+            // 
+            // tbDisplaySize
+            // 
+            this.tbDisplaySize.Location = new System.Drawing.Point(12, 25);
+            this.tbDisplaySize.Name = "tbDisplaySize";
+            this.tbDisplaySize.Size = new System.Drawing.Size(260, 20);
+            this.tbDisplaySize.TabIndex = 4;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.tbDisplaySize);
             this.Controls.Add(this.tbValueProgress);
             this.Controls.Add(this.btnMarquee);
             this.Controls.Add(this.progressBar1);
@@ -91,6 +100,7 @@
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Button btnMarquee;
         private System.Windows.Forms.TextBox tbValueProgress;
+        private System.Windows.Forms.TextBox tbDisplaySize;
     }
 }
 
