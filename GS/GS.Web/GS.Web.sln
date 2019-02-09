@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GS.Web", "GS.Web\GS.Web.csproj", "{77BC9E20-0025-4F90-92D3-154024C0CBAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77BC9E20-0025-4F90-92D3-154024C0CBAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77BC9E20-0025-4F90-92D3-154024C0CBAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77BC9E20-0025-4F90-92D3-154024C0CBAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77BC9E20-0025-4F90-92D3-154024C0CBAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {304DCB56-F566-445C-9B78-B87E9E96D712}
+	EndGlobalSection
+EndGlobal

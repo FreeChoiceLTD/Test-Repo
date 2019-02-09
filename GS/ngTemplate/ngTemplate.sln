@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ngTemplate", "ngTemplate\ngTemplate.csproj", "{C69D1B9F-4735-4D7A-BEE9-285DE4A26035}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C69D1B9F-4735-4D7A-BEE9-285DE4A26035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C69D1B9F-4735-4D7A-BEE9-285DE4A26035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C69D1B9F-4735-4D7A-BEE9-285DE4A26035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C69D1B9F-4735-4D7A-BEE9-285DE4A26035}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6269D457-6060-4B4C-BF80-B212A786C903}
+	EndGlobalSection
+EndGlobal
